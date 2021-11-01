@@ -34,7 +34,7 @@ class DetailClass(APIView):
 
     def put(self, request, pk):
         song_info_update = self.get_object(pk)
-        serializer = SongSerializer(song_info_update, data=request.data)
+        serializer = SongSerializer(song_info_update, request.data)
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data)
