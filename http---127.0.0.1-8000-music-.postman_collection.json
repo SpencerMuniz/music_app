@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "94bc673e-93a1-46fe-b289-c3696c64fbb8",
+		"name": "http://127.0.0.1:8000/music/",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get all Songs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/music/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"music",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
